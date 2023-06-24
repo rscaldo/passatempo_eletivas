@@ -1,0 +1,32 @@
+.titulo {
+  font-size: 56px;
+  line-height: 1.125;
+  color: #333;
+}
+.descri {
+  font-size: 24px;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+  .titulo {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 800px) {
+  .descri {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .titulo {
+    font-size: 40px;
+  }
+  .descri {
+    font-size: 16px;
+  }
+}

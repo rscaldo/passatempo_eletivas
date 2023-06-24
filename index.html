@@ -4,48 +4,151 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="As eletivas têm como objetivo ser uma preparação para a vida
-  adulta, profissional e acadêmica.">
+  <meta name="description" content="As eletivas têm como objetivo ser uma preparação para a vida adulta, profissional e acadêmica.">
   <title>Eletivas - Passatempo Educativo</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Lato&family=Montserrat:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
   <header class="header-bg">
-    <div class="header">
+    <div class="header container">
       <a href="http://passatempoeducativo.org.br/" target="_blank"><img class="logo" src="./images/Passatempo/logo-lateral.svg" alt="Passatempo Educativo"></a>
 
       <nav aria-label="primaria">
         <ul class="header-menu">
-          <li><a href="./eletivas.html">Eletivas</a></li>
-          <li><a href="./reforco.html">Reforço Interativo</a></li>
-          <li><a href="#sobre">Sobre nós</a></li>
-          <li><a href="#contato">Contato</a></li>
-          <li><a href="./apoie.html">Apoie</a></li>
+          <li><a class="menu-a" href="./eletivas.html">Eletivas</a></li>
+          <li><a class="menu-a" href="./reforco.html">Reforço Interativo</a></li>
+          <li><a class="menu-a" href="#sobre">Sobre nós</a></li>
+          <li><a class="menu-a" href="#contato">Contato</a></li>
+          <li><a class="botao" href="./apoie.html">Apoie</a></li>
 
         </ul>
       </nav>
     </div>
   </header>
   <main class="introducao-bg">
-    <div class="introducao">
+    <div class="introducao container">
       <div class="introducao-conteudo">
-        <h1>Eletivas<br> Fund. 2 e Ensino Médio<span>.</span></h1>
-        <p>As eletivas preparam para a vida adulta, profissional e acadêmica.</p>
-        <a href="./eletivas.html">Saiba mais</a>
+        <h1 class="titulo">Eletivas<br> Fund. 2 e Ensino Médio<span class="ponto">.</span></h1>
+        <p class="descri">As eletivas preparam para a vida adulta, profissional e acadêmica.</p>
+        <a class="botao" href="./eletivas.html">Saiba mais</a>
       </div>
       <div>
         <img src="./images/fotos/introducao.jpg" alt="Três adolescentes sentadas em um mesa realizando uma atividade de eletivas">
       </div>
     </div>
   </main>
-  <section class="section">
-    <h1>NEW SECTION</h1>
-  </section>
+  <article class="article-eletivas container">
+    <h1 class="titulo">Escolha a sua oficina prática<span class="ponto">.</span></h1>
+    <p class="descri">Previstas na <a href="http://basenacionalcomum.mec.gov.br/">BNCC</a>, as eletivas são disciplinas temáticas, que servem para compor a parte diversificada do currículo do estudante, alinhando matérias pedagógicas teóricas a práticas diversas.</p>
+    <div class="container-lista-eletivas">
+      <ul class="lista-eletivas">
+        <li>
+          <a href="./eletivas.html#culinaria">
+            <h2>Eletiva de Culinária</h2>
+          </a>
+        </li>
+        <li><a href="./eletivas.html#robotica">
+            <h2>Eletiva de Robótica</h2>
+          </a>
+        </li>
+        <li><a href="./eletivas.html#turismo">
+            <h2>Eletiva de Turismo</h2>
+          </a>
+        </li>
+        <li><a href="./eletivas.html#teatro">
+            <h2>Eletiva de Teatro</h2>
+          </a>
+        </li>
+        <li><a href="./eletivas.html#empreendorismo">
+            <h2>Eletiva de Empreendorismo</h2>
+          </a>
+        </li>
+        <li><a href="./eletivas.html#fotografia">
+            <h2>Eletiva de Fotografia</h2>
+          </a>
+        </li>
+        <li><a href="./eletivas.html#esportes">
+            <h2>Eletiva de Esportes</h2>
+          </a>
+        </li>
+        <li><a href="./eletivas.html#ciencias">
+            <h2>Eletiva de Ciências</h2>
+          </a>
+        </li>
+        <li><a href="./eletivas.html#corporal">
+            <h2>Eletiva de Corporal</h2>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </article>
+  <article class="reforco-bg">
+    <div class="article-reforco container">
+      <h1 class="titulo">Reforço interativo<span class="ponto">.</span></h1>
+      <p class="descri">O reforço interativo é uma iniciativa <strong>online</strong>, que proporciona uma forma lúdica e interativa de aprendizagem, utilizando quizzes, RPG, gincanas, jogos de tabuleiros, etc.</p>
+      <div class="container-carousel">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Característica 1"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Característica 2"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Característica 3"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3" aria-label="Característica 4"></button>
 
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://via.placeholder.com/180x180" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Característica 1</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://via.placeholder.com/180x180" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Característica 2</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://via.placeholder.com/180x180" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Característica 3</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://via.placeholder.com/180x180" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Característica 4</h5>
+                <p>Some representative placeholder content for the Four slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="reforco-botao">
+        <a class="botao" href="./contato.html">Solicite</a>
+      </div>
+    </div>
+  </article>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js
+"></script>
 </body>
 
 </html>

@@ -1,0 +1,44 @@
+.reforco-bg {
+  background-color: #edf1fa;
+}
+
+.article-reforco {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.article-reforco h1 {
+  margin-bottom: 32px;
+}
+
+.article-reforco p {
+  margin-bottom: 32px;
+}
+
+.container-carousel {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto; /* Centraliza horizontalmente */
+  overflow: hidden; /* Oculta os elementos que extrapolam as dimensões */
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Garante que a imagem preencha todo o espaço do item do carousel */
+}
+
+.carousel-caption {
+  text-align: center; /* Centraliza o conteúdo do caption */
+}
+
+.reforco-botao {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}

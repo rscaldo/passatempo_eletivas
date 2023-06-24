@@ -1,0 +1,40 @@
+body {
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  margin-bottom: 400px;
+}
+
+/* Cabeçalhos e títulos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+img[src$=".jpg"] {
+  border-radius: 4px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  margin: 0px;
+}
