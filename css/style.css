@@ -1,5 +1,6 @@
 @import "./global/header.css";
 @import "./global/global.css";
+@import "./global/footer.css";
 
 /* UTILIDADES */
 @import "./utilidades/componentes.css";
@@ -7,6 +8,8 @@
 
 /* HOME */
 @import "./home/introducao.css";
+@import "./home/patrocinadores.css";
+@import "./home/sobre.css";
 
 /* ELETIVAS */
 @import "./eletivas/eletivas-lista.css";
