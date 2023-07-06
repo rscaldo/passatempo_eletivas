@@ -1,0 +1,47 @@
+.form {
+  width: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.coluna-2 {
+  grid-column: 1/-1;
+}
+
+.form label {
+  display: block;
+  font: 1rem/1.5 "Lato", sans-serif;
+  margin-bottom: 4px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  font: 1rem/1.5 "Lato", sans-serif;
+  background: #f3f4f7;
+  border: 1px solid #a0a0ad;
+  padding: 8px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form input:focus,
+.form textarea:focus {
+  outline: none;
+  border-color: #e54;
+  background: #fff;
+}
+
+.button {
+  display: block;
+  margin: 0px;
+}
+
+@media (max-width: 600px) {
+  .form {
+    width: 100%;
+    padding-right: 40px;
+  }
+}

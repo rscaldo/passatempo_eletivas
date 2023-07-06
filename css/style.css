@@ -5,6 +5,7 @@
 /* UTILIDADES */
 @import "./utilidades/componentes.css";
 @import "./utilidades/tipografia.css";
+@import "./utilidades/formulario.css";
 
 /* HOME */
 @import "./home/introducao.css";
@@ -13,6 +14,16 @@
 
 /* ELETIVAS */
 @import "./eletivas/eletivas-lista.css";
+@import "./eletivas/eletivas.css";
 
 /* REFORÇO */
 @import "./reforco/reforco.css";
+
+/* TRANSPARÊNCIA */
+@import "./transparencia/transparencia.css";
+
+/* CONTATO */
+@import "./contato/contato.css";
+
+/* APOIE */
+@import "./apoie/apoie.css";

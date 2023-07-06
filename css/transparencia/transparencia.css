@@ -1,0 +1,104 @@
+.relatorio-bg {
+  background-color: #edf1fa;
+  padding-bottom: 60px;
+}
+.titulo-pagina h1 {
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+.titulo-pagina p {
+  margin-bottom: 60px;
+}
+
+h2 {
+  padding-top: 60px;
+  margin-bottom: 60px;
+}
+.relatorio-anual ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.relatorio-anual img {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.relatorio-anual h3 {
+  font-size: 17px;
+}
+
+.demonstrativos-bg {
+  padding-bottom: 60px;
+}
+.demonstrativos ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.demonstrativos li {
+  margin-bottom: 20px;
+}
+
+.demonstrativos li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.estatuto-bg {
+  background-color: #edf1fa;
+  padding-bottom: 60px;
+}
+
+.relatorio-anual li h3 {
+  display: inline-block;
+  border-bottom: solid 2px transparent;
+  margin-bottom: 30px;
+}
+
+.relatorio-anual li:hover h3 {
+  border-bottom: solid 2px black;
+}
+
+.demonstrativos li p {
+  display: inline-block;
+  border-bottom: solid 2px transparent;
+}
+
+.demonstrativos li:hover p {
+  border-bottom: solid 2px black;
+}
+
+.estatuto h4 {
+  display: inline-block;
+  border-bottom: solid 2px transparent;
+  margin-bottom: 30px;
+}
+
+.estatuto h4:hover {
+  border-bottom: solid 2px black;
+}
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+  .relatorio-anual ul {
+    grid-template-columns: 1fr 1fr;
+  }
+  .relatorio-anual img {
+    width: 300px;
+  }
+}
+@media (max-width: 600px) {
+  .relatorio-anual ul {
+    grid-template-columns: 1fr;
+  }
+  .demonstrativos ul {
+    grid-template-columns: 1fr;
+  }
+  .estatuto h4 {
+    font-size: 16px;
+  }
+}

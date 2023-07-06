@@ -1,0 +1,44 @@
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-left: 100px;
+  margin-bottom: 80px;
+}
+
+.contato-infos li {
+  margin-bottom: 20px;
+}
+
+.contato-infos a:hover {
+  color: #999;
+}
+
+.contato-redes {
+  padding-top: 20px;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 60px;
+  margin-left: 30px;
+}
+
+.contato-formulario {
+  margin-top: 80px;
+  padding-left: 60px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+  .contato {
+    grid-template-columns: 1fr;
+  }
+  .contato-formulario {
+    padding-left: 0px;
+    margin-top: 40px;
+  }
+  .contato-redes {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 600px) {
+}

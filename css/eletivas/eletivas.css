@@ -1,0 +1,30 @@
+.eletivas-bg:nth-child(3),
+.eletivas-bg:nth-child(5),
+.eletivas-bg:nth-child(7),
+.eletivas-bg:nth-child(9) {
+  background: #edf1fa;
+}
+
+h1 {
+  margin-top: 60px;
+}
+.eletivas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.eletivas-conteudo {
+  display: flex;
+  flex-direction: column;
+}
+.eletivas-conteudo h2 {
+  padding-top: 0px;
+}
+.eletivas-conteudo a {
+  margin-top: 40px;
+  align-self: flex-end;
+  margin-right: 40px;
+}
